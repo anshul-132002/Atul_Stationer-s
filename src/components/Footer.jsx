@@ -13,12 +13,13 @@ const Footer = () => {
         textAlign: "center",
         bgcolor: "#1A1A19",
         color: "white",
+
           p: 3 
       }}
      
     >
       <div className="footer-icons">
-        {/* icons */}
+       
         <a
           href="https://www.instagram.com/anshul_shrivas____13/"
           target="_blank"
@@ -60,6 +61,8 @@ const Footer = () => {
         }}
       >
         All Rights Reserved &copy; Anshul Shrivas
+        <br></br>
+        +91-70000 84692
       </Typography>
     </Box>
   );
