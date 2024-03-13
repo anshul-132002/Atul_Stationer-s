@@ -1,6 +1,6 @@
 # Atul Stationery Website
 
-Welcome to the Atul Stationery website! This website showcases a variety of stationery products and provides information about our store. Follow the instructions below to set up and interact with the website.
+Welcome to the Atul Stationery website! I have created my own shop website , This website showcases a variety of stationery products and provides information about our store. Follow the instructions below to set up and interact with the website.
 
 ## Table of Contents
 
