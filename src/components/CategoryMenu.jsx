@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import FoodData from "../data/FoodData";
+import FoodData from "../data/Data";
 import { useDispatch, useSelector } from "react-redux";
 import { setCategory } from "../redux/slices/CategorySlice";
 

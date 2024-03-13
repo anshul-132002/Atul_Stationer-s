@@ -1,4 +1,4 @@
-const FoodData = [
+const Data = [
     {
       id: 1,
       img: "https://m.media-amazon.com/images/I/51AjfrbUguL._SX425_.jpg",
@@ -218,6 +218,15 @@ const FoodData = [
     },
     {
       id: 25,
+      img: "https://m.media-amazon.com/images/I/71Q8M16Ny5L._SY385_.jpg",
+      name: " 10 JEE Main Online 2024 Session",
+      price: 222,
+      desc: "✍ 10 JEE Main Online 2024 Session 1 Solved Papers (All Sittings) consists of the 10 JEE Main Papers held b/w 24th Jan - 1st Feb 2024 in 10 Slots (2 shifts per day).✍ The detailed solutions are provided immediately after each Paper.✍ Each Paper also provides Rank Predictor, with the help of which you can predict your Rank.✍ These Papers would act as Mock Tests and can help you improve your Score in 2024 Session 2 & 2025 Session 1 & 2.✍ These papers would act as a VERY IMPORTANT practice tool for JEE Main Session 2 to be held in April, 2024.",
+      category: "JEE",
+      rating: 4.9,
+    },
+    {
+      id: 26,
       img: "https://m.media-amazon.com/images/I/318Vi4VZZpL._SX300_SY300_QL70_FMwebp_.jpg",
       name: " Lenovo 15.6 (39.62cm) Slim Everyday Backpack",
       price: 399,
@@ -225,6 +234,53 @@ const FoodData = [
       category: "Bags and Bottles",
       rating: 4.9,
     },
+    {
+      id: 27,
+      img: "https://m.media-amazon.com/images/I/81k2eR1X0FL._SY385_.jpg",
+      name: "New Syllabus 15 Mock Tests for NTA JEE",
+      price: 399,
+      desc: "✍ 10 JEE Main Online 2024 Session 1 Solved Papers (All Sittings) consists of the 10 JEE Main Papers held b/w 24th Jan - 1st Feb 2024 in 10 Slots (2 shifts per day)",
+      category: "JEE",
+      rating: 4.9,
+    },
+    {
+      id: 28,
+      img: "https://m.media-amazon.com/images/I/51TzIsb0J-L._SX342_SY445_.jpg",
+      name: " PW NTA NEET Rankers Test Series - 2024",
+      price: 499,
+      desc: "'Rankers Test Series for NEET 2024' is your best test series for NEET 2024 and the ultimate guide to conquering the NEET exam. Packed with high-quality questions and real exam experience, this book offers 10 full syllabus and 4 part syllabus test papers following the latest NEET pattern. It covers essential concepts from the last decade of NEET papers and provides comprehensive solutions. Get ready to ace the NEET exam with this invaluable resource.",
+      category: "NEET",
+      rating: 4.9,
+    },
+    {
+      id: 29,
+      img: "https://m.media-amazon.com/images/I/51GiqkfKFAL._SY445_SX342_.jpg",
+      name: "NEET Previous Years Solved Papers With Solutions (2013 - 2023) ",
+      price: 479,
+      desc: "The crucial part for better preparation is choosing the best book for NEET 2023. Target’s NEET - UG Previous Year Question Paper book will give you a head start and cut down the effort that you would otherwise have to put in to find the right strategy and the best books in the market. This book is a perfect compilation of solutions to exam papers of last 9 yrs. Salient features of the book : NEET question papers of 13 exams held over previous 9 years included in the book, Self assessment score card provided to track your progress as you solve all the papers, Answer key to all papers given in the form of an ideal OMR sheet, Solutions to relevant questions provided along with page number reference of NCERT textbook, tricks in the form of ‘Smart key’ provided for efficient solving of questions, Blank NEET OMR sheets provided at the end of the book for practising all papers, Chapter wise weightage analysis of last 9 yrs provided in tabular format at the start of the book. Score well in your entrance examination with NEET - UG Previous Year Question Paper book. Don’t wait, grab your NEET question papers with solutions book now!",
+      category: "NEET",
+      rating: 4.9,
+    },
+    {
+      id: 30,
+      img: "https://m.media-amazon.com/images/I/41dWpgExdhL._SY445_SX342_.jpg",
+      name: "Guide to RRB Assistant Loco Pilot (ALP)",
+      price: 269,
+      desc: "The updated and revised 3rd edition of the book Guide to RRB Assistant Loco Pilot (ALP) Exam Stage I & II covers: ✍ Comprehensive Sections on: General Awareness, Arithmetic, General Intelligence & Reasoning and General Science & Technical Ability",
+      category: "Railway",
+      rating: 4.9,
+    },
+    {
+      id: 31,
+      img: "https://m.media-amazon.com/images/I/51ep5j9Bh9L._SY385_.jpg",
+      name: "Railway 27000+ Facts Previous Years Questions",
+      price: 218,
+      desc: "Railway 27000+ Facts Previous Years Questions Saar Sangrah Yearwise and Topicwise Pointers General Awareness 1992 to 2022 (Hindi Medium) (4109) Contents: General Awareness (General Knowledge And General Science) Including Success Tips 1992-2022 This Book Contain 27000+ Previous and Success Tips of exams conducted by Railway Exam.",
+      category: "Railway",
+      rating: 4.7,
+    },
+
+
     
   ];
-  export default FoodData;
+  export default Data;

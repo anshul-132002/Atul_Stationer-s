@@ -47,14 +47,14 @@ const AddressInputPage = () => {
         }}
       >
         <img
-          src="https://lamilano.pizza/wp-content/themes/accreteinfo/img/logo.png"
+          src="./Images/Atul.png"
           alt="Your Logo"
-          style={{ height: 80 }}
+          style={{ height: 120 , width: 150 }}
         />
       </div>
       <br></br>
       <h1 style={{ fontWeight: "bold", textAlign: "center" }}>
-        Shipping Details
+       <u> Shipping Details</u>
       </h1>
       <br></br>
       <p style={{ fontWeight: "light", textAlign: "center" }}>
