@@ -13,7 +13,7 @@ const Footer = () => {
         textAlign: "center",
         bgcolor: "#1A1A19",
         color: "white",
-          p: 2 
+          p: 3 
       }}
      
     >

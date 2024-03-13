@@ -13,7 +13,7 @@ const ItemCard = ({ id, name, qty, price, img }) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="flex gap-3 shadow-md rounded-lg p-2 mb-3">
+    <div className="flex gap-3 shadow-md rounded-lg p-8 mb-8">
       <MdDelete
         onClick={() => {
           dispatch(removeFromCart({ id, img, name, price, qty }));
@@ -21,14 +21,14 @@ const ItemCard = ({ id, name, qty, price, img }) => {
             icon: "👋",
           });
         }}
-        className="absolute right-10 text-gray-600 cursor-pointer"
+        className="text-gray-600 cursor-pointer"
       />
-      <img src={img} alt="" className="w-[50px] h-[50px] " />
-      <div className="leading-5">
-        <h2 className="font-bold text-gray-800">{name}</h2>
-        <div className="flex justify-between ">
+      <img src={img} alt="" className="w-16 h-16 rounded-md" />
+      <div className="flex flex-col flex-grow justify-between">
+        <h2 className="font-bold text-gray-800 text-lg">{name}</h2>
+        <div className="flex items-center justify-between">
           <span className="text-green-500 font-bold">₹{price}</span>
-          <div className="flex justify-center items-center gap-2 absolute right-7">
+          <div className="flex justify-center items-center gap-2">
             <AiOutlineMinus
               onClick={() =>
                 qty > 1 ? dispatch(decrementQty({ id })) : (qty = 0)
